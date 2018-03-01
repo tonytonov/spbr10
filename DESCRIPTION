@@ -1,0 +1,18 @@
+Package: spbr10
+Type: Package
+Title: Demo Package For SPbR Meetup
+Version: 0.1.0
+Authors@R: c(person("Anton", "Antonov", role = c("aut", "cre"),
+                     email = "tonytonov@gmail.com"))
+Description: Various R functions that help me demonstrate the ease of package development with RStudio.
+License: GPL-2
+Depends: R (>= 3.0.0)
+Imports: 
+    methods,
+    ggplot2
+Suggests: 
+    plotly,
+    testthat
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
